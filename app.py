@@ -3,7 +3,7 @@
 import FreeSimpleGUI as gui
 from convertor import convert
 
-gui.theme="Black"
+gui.theme("Black")
 
 feet_label = gui.Text("Enter Feet: ")
 feet_input = gui.Input(key = 'feets')
